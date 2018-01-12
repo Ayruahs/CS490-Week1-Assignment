@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FC2495292009319800304C73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2495282009319800304C73 /* AppDelegate.swift */; };
-		FC24952B2009319800304C73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC24952A2009319800304C73 /* ViewController.swift */; };
 		FC24952E2009319800304C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC24952C2009319800304C73 /* Main.storyboard */; };
 		FC2495302009319800304C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC24952F2009319800304C73 /* Assets.xcassets */; };
 		FC2495332009319800304C73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2495312009319800304C73 /* LaunchScreen.storyboard */; };
 		FC24953E2009319800304C73 /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC24953D2009319800304C73 /* FlixTests.swift */; };
 		FC2495492009319800304C73 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2495482009319800304C73 /* FlixUITests.swift */; };
+		FC24955720093E0000304C73 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC24955620093E0000304C73 /* NowPlayingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		FC2495252009319800304C73 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2495282009319800304C73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC24952A2009319800304C73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC24952D2009319800304C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC24952F2009319800304C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC2495322009319800304C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		FC2495442009319800304C73 /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2495482009319800304C73 /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		FC24954A2009319800304C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC24955620093E0000304C73 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				FC2495282009319800304C73 /* AppDelegate.swift */,
-				FC24952A2009319800304C73 /* ViewController.swift */,
 				FC24952C2009319800304C73 /* Main.storyboard */,
+				FC24955620093E0000304C73 /* NowPlayingViewController.swift */,
 				FC24952F2009319800304C73 /* Assets.xcassets */,
 				FC2495312009319800304C73 /* LaunchScreen.storyboard */,
 				FC2495342009319800304C73 /* Info.plist */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC24952B2009319800304C73 /* ViewController.swift in Sources */,
+				FC24955720093E0000304C73 /* NowPlayingViewController.swift in Sources */,
 				FC2495292009319800304C73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
