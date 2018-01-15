@@ -1,8 +1,8 @@
-# Project 1 - *Name of App Here*
+# Project 1 - *Flix*
 
-**Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flix** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
@@ -28,8 +28,8 @@ The following **additional** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. Having a wishlist of movies you want to watch.
+2. Popular movies
 
 ## Video Walkthrough
 
@@ -41,11 +41,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had trouble implementing the Activity Indicator because I couldn't figure out when to start and stop animating.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2018] [Shaurya Sinha]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
