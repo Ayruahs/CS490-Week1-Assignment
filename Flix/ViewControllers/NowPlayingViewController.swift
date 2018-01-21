@@ -84,12 +84,26 @@ class NowPlayingViewController: UIViewController, UITableViewDelegate, UITableVi
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 260
+        return 240
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! MovieCell
+        if let indexPath = tableView.indexPath(for: cell){
+            let movie = movies[indexPath.row]
+            let detailViewController = segue.destination as! DetailViewController
+            
+            detailViewController.movie = movie
+        }
+        
+        
+        
+        
     }
 }
