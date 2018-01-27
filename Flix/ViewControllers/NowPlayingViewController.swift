@@ -26,6 +26,8 @@ class NowPlayingViewController: UIViewController, UITableViewDelegate, UITableVi
         
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 50
         fetchMovies()
         
     }
@@ -89,9 +91,9 @@ class NowPlayingViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 240
-    }
+   // func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+     //   return 250
+   // }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let cell = sender as! MovieCell
